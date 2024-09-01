@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navElements a, li{
+    color: white;
+    text-decoration: none; /*for no underline on links*/
+    list-style-type: none; /* for no buttons on list */
+}
+
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(99, 28, 179);
+    position: fixed;
+    width: 100%;
+}
+
+.mainLogo a{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: 42px;
+}
+
+.navLinks {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks li {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* button styles */
+
+.navElements button{
+    width: 104px;
+    height: 48px;
+    font-size: 20px; 
+    font-family: 'Inter';
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.signUpButton {
+    background-color: rgb(206, 162, 253);
+    transition: opacity 0.2s;
+}
+
+.signUpButton:hover {
+    opacity: 0.8;
+}
+
+.signUpButton:active {
+    opacity: 0.6;
+}
+
+.loginButton {
+    background-color: rgb(231, 84, 128);
+    transition: opacity 0.2s;
+}
+
+.loginButton:hover {
+    opacity: 0.8;
+}
+
+.loginButton:active {
+    opacity: 0.6;
+}
+
+/* section styles */
+
+.homePageSection {
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    color: white;
+}
+
+#homeSection {
+    background-color: rgb(65, 0, 139);
+    font-size: 120px;
+    display: block;
+}
+
+#homeSection h1 {
+    padding-top: 170px;
+}
+
+#homeSection button{
+    width: 240px;
+    height: 62px;
+    font-size: 20px; 
+    font-family: 'Inter';
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 31px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(99, 28, 179);
+}
+
+#aboutSection {
+    background-color: rgb(92, 2, 196);
+    display: block;
+}
+
+#aboutSection h1 {
+    padding-top: 170px;
+    font-size: 120px;
+}
+
+#aboutSection p {
+    margin: 25px;
+    font-size: 32px;
+    font-family: 'Suse';
+}
+
+#aboutSection button {
+    width: 320px;
+    height: 62px;
+    font-size: 20px; 
+    font-family: 'Inter';
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 31px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(99, 28, 179);
+}
+
+#usageSection {
+    background-color: rgb(125, 33, 231);
+    display: block;
+}
+
+#usageSection h1 {
+    padding-top: 170px;
+    font-size: 120px;  
+}
+
+#usageSection li {
+    margin: 15px;
+    font-size: 42px;
+    font-family: 'Suse';
+}
+
+#teamSection {
+    background-color: rgb(153, 68, 250);
+    display: block;
+}
+
+#teamSection h1 {
+    padding-top: 170px;
+    font-size: 120px;
+}
+
+#teamSection li {
+    margin: 15px;
+    font-size: 42px;
+    font-family: 'Suse';
+}
+
+
